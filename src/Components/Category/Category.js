@@ -1,18 +1,21 @@
 import React from 'react';
 import './Category.css';
-import {Container, Row, Col} from 'react-bootstrap';
 
 class Category extends React.Component {
     render() {
         return (
-            <div>
-                <Container>
-                    <Row>
-                        <Col>1 of 3</Col>
-                        <Col>2 of 3</Col>
-                        <Col>3 of 3</Col>
-                    </Row>
-                </Container>
+            <div className = "container">
+                <div className = "row">
+                    <div className = "col-lg-4 col-md-4 col-sm-1">
+                        <h1>Nature</h1>
+                    </div>
+                    <div className = "col-lg-4 col-md-4 col-sm-1">
+                        <h1>Sports</h1>
+                    </div>
+                    <div className = "col-lg-4 col-md-4 col-sm-1">
+                        <h1>Action</h1>
+                    </div>
+                </div>
             </div>
         );
     }
