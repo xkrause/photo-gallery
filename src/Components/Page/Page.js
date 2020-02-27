@@ -28,7 +28,7 @@ class Page extends React.Component {
     render() {
         return (
             <div>
-                <Gallery photos={photos} />
+                <Gallery photos = {photos} />
             </div>
         );
     }
