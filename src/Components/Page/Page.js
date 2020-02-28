@@ -4,8 +4,8 @@ import Gallery from 'react-photo-gallery';
 const row1 = [
     {
         src: require('../../img/blurry-keyboard.JPG'),
-        width: 2,
-        height: 1
+        width: 3,
+        height: 2
     },
     {
         src: require('../../img/apple.jpg'),
@@ -41,6 +41,16 @@ const row1 = [
         src: require('../../img/fence-plant.JPG'),
         width: 7,
         height: 5
+    },
+    {
+        src: require('../../img/piano.JPG'),
+        width: 6,
+        height: 5
+    },
+    {
+        src: require('../../img/jedi.jpg'),
+        width: 5,
+        height: 7
     }
   ];
 
