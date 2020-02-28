@@ -9,8 +9,8 @@ const row1 = [
     },
     {
         src: require('../../img/apple.jpg'),
-        width: 1,
-        height: 1
+        width: 1.5,
+        height: 1.3
     },
     {
         src: require('../../img/rocks-close.jpg'),
