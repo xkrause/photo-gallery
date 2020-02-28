@@ -1,48 +1,54 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
 
-const photos = [
+const row1 = [
     {
-        src: require('../../img/rocks.jpg'),
-        width: 6,
-        height: 7
+        src: require('../../img/blurry-keyboard.JPG'),
+        width: 2,
+        height: 1
     },
     {
         src: require('../../img/apple.jpg'),
-        width: 4,
-        height: 3
+        width: 1,
+        height: 1
     },
     {
         src: require('../../img/rocks-close.jpg'),
-        width: 6,
-        height: 7
+        width: 3,
+        height: 4
     },
     {
         src: require('../../img/food.jpg'),
-        width: 4,
-        height: 6
+        width: 2,
+        height: 3
     },
     {
         src: require('../../img/nerf-arsenal.jpg'),
-        width: 6,
-        height: 7
+        width: 3,
+        height: 4
+    },
+    {
+        src: require('../../img/light-lines.JPG'),
+        width: 5,
+        height: 2
+    },
+    {
+        src: require('../../img/rainy-window.JPG'),
+        width: 3,
+        height: 4
+    },
+    {
+        src: require('../../img/fence-plant.JPG'),
+        width: 7,
+        height: 5
     }
   ];
-
-  const wide = [
-    {
-        src: require('../../img/me.jpg'),
-        width: 7,
-        height: 4
-    }
-  ]
 
 class Page extends React.Component {
     render() {
         return (
             <div>
-                <Gallery photos = {photos} />
-                <Gallery photos = {wide} />
+                <Gallery photos = {row1} direction = {"column"} />
             </div>
         );
     }
