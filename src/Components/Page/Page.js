@@ -30,7 +30,7 @@ const row1 = [
     {
         src: require('../../img/light-lines.JPG'),
         width: 5,
-        height: 2
+        height: 3
     },
     {
         src: require('../../img/rainy-window.JPG'),
